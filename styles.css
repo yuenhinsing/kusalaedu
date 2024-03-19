@@ -1,0 +1,226 @@
+/*
+@font-face { 
+    font-family: "Crimson Pro";
+    src: url(./assets/fonts/Crimson_Pro/CrimsonPro-VariableFont_wght.ttf) format("truetype");
+};
+
+@font-face { 
+    font-family: "Libre Caslon";
+    src: url(./assets/fonts/Libre_Caslon_Text/LibreCaslonText-Regular.ttf) format("truetype");
+};
+
+@font-face { 
+    font-family: "Questrial";
+    src: url(./assets/fonts/Questrial/Questrial-Regular.ttf) format("truetype");
+    font-weight: 400;
+    font-style: normal;
+};
+
+@font-face {
+    font-family: "Tiro Bangla";
+    src: url(./assets/fonts/Tiro_Bangla/TiroBangla-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Urbanist";
+    src: url(./assets/fonts/Urbanist/Urbanist-VariableFont_wght.ttf) format("truetype");
+}
+*/
+
+
+:root {
+    --kusala-orange: #f08c03;
+    --kusala-white: #fafafa;
+    --kusala-black: #000000;
+    --kusala-beige: #ece4db;
+
+    --ahsingx-orange: #f49305;
+    --light-brown: #e8b357;
+    --dark-brown: #e0972d;
+    --dark-beige: #f8cf6e;
+    --beige: #faf5e0;
+    --very-dark-brown: #ca9130;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: var(--kusala-beige);
+}
+
+.header-container {
+    display: flex;
+    width: 100%;
+    background-color: white;
+    color: var(--very-dark-brown);
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+.header-left {
+    width: 50%;
+    display: flex;
+}
+
+.header-logo {
+    width: 30%;
+}
+
+.header-logo img {
+    width: 100%;
+}
+
+.header-text {
+    margin-left: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.header-right {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.link {
+    padding: 20px;
+}
+
+.wrapper {
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+
+}
+
+.hero-container {
+    display: flex;
+    width: 100%;
+    align-items: ;
+}
+
+.hero-left {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    text-align: initial;
+}
+
+.hero-left img {
+    width: 100%;
+}
+
+.hero-pic {
+    width: 50%;
+}
+
+.hero-text {
+    width: 100%;
+    text-align: left;
+    color: white;
+    padding-left: 10px;
+}
+
+.hero-right {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 10px;
+}
+
+.hero-right img {
+    width: 100%;
+}
+
+
+
+
+
+form {
+    /* Center the form on the page */
+    margin: 0 auto;
+    width: 400px;
+    /* Form outline */
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  form li + li {
+    margin-top: 1em;
+  }
+  
+  label {
+    /* Uniform size & alignment */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+  }
+  
+  input,
+  textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 1em sans-serif;
+  
+    /* Uniform text field size */
+    width: 300px;
+    box-sizing: border-box;
+  
+    /* Match form field borders */
+    border: 1px solid #999;
+  }
+  
+  input:focus,
+  textarea:focus {
+    /* Additional highlight for focused elements */
+    border-color: #000;
+  }
+  
+  textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+  
+    /* Provide space to type some text */
+    height: 5em;
+  }
+  
+  .button {
+    /* Align buttons with the text fields */
+    padding-left: 90px; /* same size as the label elements */
+  }
+  
+  button {
+    /* This extra margin represent roughly the same space as the space
+       between the labels and their text fields */
+    margin-left: 0.5em;
+  }
+  

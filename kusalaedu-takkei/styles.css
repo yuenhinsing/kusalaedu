@@ -1,0 +1,119 @@
+:root {
+    --purple1: rgb(120, 87, 255);
+    --purple2: rgb(46, 43, 233);
+    --purple3: rgb(78, 33, 202);
+    --purple4: rgb(36, 33, 202);
+    --reaction: #ff5757;
+    --memory: #ffb01f;
+    --verbal: #00bd91;
+    --visual: #1125d4;
+    --reaction-background: #ff57570c;
+    --memory-background: #ffb11f0c;
+    --verbal-background: #00bd910c;
+    --visual-background: #1124d40c;
+    --button: hsl(224, 30%, 27%);
+
+    --dark-kusala-orange: rgb(116, 58, 0);
+    --kusala-orange: rgb(234,124,13);
+    --light-kusala-orange: rgb(236,146,52);
+    --super-light-kusala-orange: rgb(231, 228, 225);
+    --beige: rgb(244,211,171);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--super-light-kusala-orange);
+    font-size: 18px;
+    font-family: "Hanken Grotesk", Arial, Helvetica, sans-serif;
+}
+
+h1, h2 {
+    color: var(--super-light-kusala-orange);
+}
+
+p {
+    font-size: 14px;
+}
+
+.container {
+    background-color: var(--beige);
+    width: 1000px;
+    height: 666px;
+    margin: 200px auto;
+    display: flex;
+    border-radius: 2rem;
+    box-shadow: 5px 5px 20px lightgray;
+}
+
+.left {
+    background-color: var(--light-kusala-orange);
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+}
+
+.img-container {
+    width: 66%;
+    margin-bottom: 60px;
+}
+
+img {
+    width: 100%;
+    border-radius: 50%;
+    opacity: 0.9;
+}
+
+.name-and-position {
+    text-align: center;
+}
+
+.title {
+    font-size: 20px;
+}
+
+.right {
+    width: 50%;
+    padding: 50px;
+}
+
+p, ul {
+    padding: 12px;
+    color: var(--dark-kusala-orange);
+    font-size: 14px;
+}
+
+ul {
+    margin: 10px;
+}
+
+.information-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box {
+    width: 20%;
+}
+
+.box img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 20px;
+    border: 5px solid darkgoldenrod;
+    filter: drop-shadow(0 0 30px darkgoldenrod);
+}
+
+.box p {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
